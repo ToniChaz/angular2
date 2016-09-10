@@ -9,6 +9,8 @@ import { DashboardComponent }  from './dashboard/dashboard.component';
 import { HeroesComponent }     from './heroes/heroes.component';
 import { HeroDetailComponent } from './heroes/hero-detail.component';
 import { HeroService }         from './heroes/shared/hero.service';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -20,7 +22,9 @@ import { HeroService }         from './heroes/shared/hero.service';
     AppComponent,
     DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   providers: [
     HeroService
