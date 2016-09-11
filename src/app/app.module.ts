@@ -11,6 +11,7 @@ import { HeroDetailComponent } from './heroes/hero-detail.component';
 import { HeroService }         from './heroes/shared/hero.service';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     HeroDetailComponent,
     HeroesComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   providers: [
     HeroService

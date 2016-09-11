@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from "@angular/router";
+import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
-import { Hero, HeroService } from '../heroes/shared/index';
+import {Hero, HeroService} from '../heroes/shared/index';
 
 
 @Component({
@@ -14,9 +14,8 @@ export class DashboardComponent implements OnInit {
 
   heroes: Hero[] = [];
 
-  constructor(
-    private router: Router,
-    private heroService: HeroService) {
+  constructor(private router: Router,
+              private heroService: HeroService) {
   }
 
   ngOnInit(): void {

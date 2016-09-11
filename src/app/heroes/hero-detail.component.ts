@@ -1,8 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from "@angular/router";
+import {Component, Input, OnInit} from '@angular/core';
+import {ActivatedRoute, Params} from "@angular/router";
 
-import { Hero } from './shared/hero';
-import { HeroService } from "./shared/hero.service";
+import {Hero} from './shared/hero';
+import {HeroService} from "./shared/hero.service";
 
 @Component({
   selector: 'my-hero-detail',
@@ -30,6 +30,5 @@ export class HeroDetailComponent implements OnInit {
 
   @Input()
   hero: Hero;
-
 
 }
