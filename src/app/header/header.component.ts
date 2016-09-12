@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,11 +6,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  title = 'Tour of Heroes';
+  modalData = {title: 'Modal Title', text: 'This is the example modal body text.'};
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
-  title = 'Tour of Heroes'
 
 }
